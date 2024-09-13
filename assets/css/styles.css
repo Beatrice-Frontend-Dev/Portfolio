@@ -414,6 +414,11 @@ svg {
   object-position: left center;
 }
 
+.projects__modal .todo-info {
+  font-size: 0.9rem;
+  padding: 0 2rem;
+}
+
 .doordash {
   object-position: center;
 }
