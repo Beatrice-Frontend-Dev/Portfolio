@@ -332,7 +332,7 @@ svg {
 /* SKILLS */
 
 .skills {
-  background-color: var(--container-color);
+  background-color: var(--body-color);
 }
 .skills__container {
   padding-bottom: 2rem;
@@ -367,13 +367,17 @@ svg {
 }
 /* SERVICES */
 
+.services {
+  background-color: var(--container-color);
+}
+
 .services__container {
   row-gap: 2rem;
   padding-block: 1rem;
 }
 .services__card {
   text-align: center;
-  background-color: var(--container-color);
+  background-color: var(--body-color);
   padding: 3rem 1.25rem;
   border-radius: 1rem;
   border: 2px solid var(--container-color);
@@ -394,7 +398,7 @@ svg {
 }
 /* PROJECTS */
 .projects {
-  background-color: var(--container-color);
+  background-color: var(--body-color);
 }
 .projects__container {
   row-gap: 2rem;
@@ -470,6 +474,10 @@ svg {
 }
 
 /* CONTACT */
+.contact {
+  background-color: var(--container-color);
+}
+
 .contact__container {
   padding-top: 1rem;
 }
@@ -484,7 +492,7 @@ svg {
 .contact__input {
   padding: 1rem 1.25rem;
   border-radius: 0.5rem;
-  background-color: var(--container-color);
+  background-color: var(--body-color);
   color: var(--title-color);
 }
 .contact__input::placeholder {
@@ -509,7 +517,7 @@ svg {
 
 /* FOOTER */
 .footer {
-  background-color: var(--container-color);
+  background-color: var(--body-color);
   padding-block: 3.5rem 2rem;
 }
 .footer__container {
